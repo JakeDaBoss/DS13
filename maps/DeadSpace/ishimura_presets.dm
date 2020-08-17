@@ -6,14 +6,14 @@
 //
 
 // Substation SMES
-/obj/machinery/power/smes/buildable/preset/torch/substation/configure_and_install_coils()
+/obj/machinery/power/smes/buildable/preset/ishimura/substation/configure_and_install_coils()
 	component_parts += new /obj/item/weapon/smes_coil(src)
 	component_parts += new /obj/item/weapon/smes_coil(src)
 	_input_maxed = TRUE
 	_output_maxed = TRUE
 
 // Substation SMES (charged and with full I/O setting)
-/obj/machinery/power/smes/buildable/preset/torch/substation_full/configure_and_install_coils()
+/obj/machinery/power/smes/buildable/preset/ishimura/substation_full/configure_and_install_coils()
 	component_parts += new /obj/item/weapon/smes_coil(src)
 	component_parts += new /obj/item/weapon/smes_coil(src)
 	_input_maxed = TRUE
@@ -23,7 +23,7 @@
 	_fully_charged = TRUE
 
 // Main Engine output SMES
-/obj/machinery/power/smes/buildable/preset/torch/engine_main/configure_and_install_coils()
+/obj/machinery/power/smes/buildable/preset/ishimura/engine_main/configure_and_install_coils()
 	component_parts += new /obj/item/weapon/smes_coil/super_io(src)
 	component_parts += new /obj/item/weapon/smes_coil/super_io(src)
 	component_parts += new /obj/item/weapon/smes_coil/super_capacity(src)
@@ -35,7 +35,7 @@
 	_fully_charged = TRUE
 
 // Shuttle SMES
-/obj/machinery/power/smes/buildable/preset/torch/shuttle/configure_and_install_coils()
+/obj/machinery/power/smes/buildable/preset/ishimura/shuttle/configure_and_install_coils()
 	component_parts += new /obj/item/weapon/smes_coil/super_io(src)
 	_input_maxed = TRUE
 	_output_maxed = TRUE
@@ -44,7 +44,7 @@
 	_fully_charged = TRUE
 
 // Hangar SMES. Charges the shuttles so needs a pretty big throughput.
-/obj/machinery/power/smes/buildable/preset/torch/hangar/configure_and_install_coils()
+/obj/machinery/power/smes/buildable/preset/ishimura/hangar/configure_and_install_coils()
 	component_parts += new /obj/item/weapon/smes_coil/super_io(src)
 	component_parts += new /obj/item/weapon/smes_coil/super_io(src)
 	_input_maxed = TRUE

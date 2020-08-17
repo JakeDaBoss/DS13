@@ -83,7 +83,7 @@
 "bE" = (/turf/simulated/floor/tiled/monotile,/area/aegis/colony/engineering)
 "bF" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/monotile,/area/aegis/colony/engineering)
 "bG" = (/turf/simulated/floor/tiled/steel_grid,/area/aegis/colony/engineering)
-"bH" = (/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/machinery/power/smes/buildable/preset/ishimura/substation_full,/turf/simulated/floor/tiled/dark/monotile,/area/aegis/colony/engineering/maintenance)
+"bH" = (/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/machinery/power/smes/buildable/preset/torch/substation_full,/turf/simulated/floor/tiled/dark/monotile,/area/aegis/colony/engineering/maintenance)
 "bI" = (/obj/machinery/suit_storage_unit/security,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/monotile,/area/aegis/colony/security)
 "bJ" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{icon_state = "map-scrubbers"; dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/aegis/colony/spare_storage)
 "bK" = (/obj/structure/closet/medical_wall/filled{pixel_y = -32},/turf/simulated/floor/tiled,/area/aegis/colony/hangar/entrance/one)
