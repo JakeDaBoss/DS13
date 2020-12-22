@@ -42,6 +42,7 @@ var/global/Holiday = null
 			switch(DD)
 				if(14)							Holiday = "Pi Day"
 				if(17)							Holiday = "St. Patrick's Day"
+				if(21)							Holiday = "DS13 Anniversary"
 				if(27)
 					if(YY == 16)
 						Holiday = "Easter"
@@ -106,7 +107,6 @@ var/global/Holiday = null
 				if(10)							Holiday = "Human-Rights Day"
 				if(14)							Holiday = "Monkey Day"
 				if(21)							if(YY==12)	Holiday = "End of the World"
-				if(22)							Holiday = "Orgasming Day"		//lol. These all actually exist
 				if(24)							Holiday = "Christmas Eve"
 				if(25)							Holiday = "Christmas"
 				if(26)							Holiday = "Boxing Day"
