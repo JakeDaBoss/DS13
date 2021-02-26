@@ -1,9 +1,9 @@
 /datum/job/captain
-	title = "Directir of Operations"
+	title = "Director of Operations"
 	supervisors = "EarthGov and the law"
 	minimal_player_age = 14
 	economic_power = 15
-	minimum_character_age = list(SPECIES_HUMAN = 40)
+	minimum_character_age = 40
 	ideal_character_age = 50
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/CO
 	allowed_branches = list(
@@ -12,12 +12,10 @@
 	allowed_ranks = list(
 		/datum/mil_rank/ec/o6
 	)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_SCIENCE     = SKILL_ADEPT,
-	                    SKILL_PILOT       = SKILL_ADEPT)
+	min_skill = list(   SKILL_BUREAUCRACY = SKILL_EXPERT,
+	                    SKILL_SCIENCE     = SKILL_ADEPT)
 
-	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
-	                    SKILL_SCIENCE     = SKILL_MAX)
+	max_skill = list(SKILL_SCIENCE = SKILL_MAX)
 	skill_points = 30
 
 	software_on_spawn = list(/datum/computer_file/program/comm,
@@ -26,7 +24,7 @@
 							 /datum/computer_file/program/reports)
 
 /datum/job/captain/get_description_blurb()
-	return "You are the Director of Operations. EarthGov has instated you as their "
+	return "You are the Director of Operations. EarthGov has instated you as their representative on Titan Station, and expect you to manage it carefully. You are the top authority on the station, and control the civilian and military personnel present."
 
 /datum/job/captain/post_equip_rank(var/mob/person, var/alt_title)
 	var/sound/announce_sound = (GAME_STATE <= RUNLEVEL_SETUP)? null : sound('sound/misc/boatswain.ogg', volume=20)

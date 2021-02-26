@@ -161,6 +161,13 @@
 	storage_types = CLOSET_STORAGE_ITEMS
 	req_access = list(access_medical)
 
+/obj/structure/closet/secure_closet/medical_wall/WillContain()
+	return list(
+		/obj/item/weapon/storage/box/autoinjectors,
+		/obj/item/weapon/storage/box/syringes,
+		/obj/random/firstaid = 3
+	)
+
 /obj/structure/closet/secure_closet/counselor
 	name = "counselor's locker"
 	req_access = list(access_medical)

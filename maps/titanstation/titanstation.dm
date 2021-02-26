@@ -3,7 +3,7 @@
 //	#include "titanstation_announcements.dm"
 //	#include "titanstation_antagonism.dm"
 	#include "titanstation_areas.dm"
-//	#include "titanstation_elevator.dm"
+	#include "titanstation_elevator.dm"
 //	#include "titanstation_events.dm"
 //	#include "titanstation_holodecks.dm"
 //	#include "titanstation_lobby.dm"

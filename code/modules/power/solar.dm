@@ -22,6 +22,9 @@ var/list/solars_list = list()
 	var/turn_angle = 0
 	var/obj/machinery/power/solar_control/control = null
 
+/obj/machinery/power/solar/titstat/govsec
+	id = "govsec"
+
 /obj/machinery/power/solar/drain_power()
 	return -1
 
